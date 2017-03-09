@@ -1,0 +1,12 @@
+server:
+  port: 22000
+spring:
+  application:
+    name: hello-world
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka
